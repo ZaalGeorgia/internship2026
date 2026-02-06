@@ -2,6 +2,6 @@ package tetris;
 
 public interface Observer {
 
-	void stateChanged();
+	void stateChanged(Tetris model);
 
 }

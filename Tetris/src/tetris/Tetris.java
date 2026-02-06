@@ -32,7 +32,7 @@ public class Tetris implements EventProcessor {
 			return;
 		}
 		posY++;
-		observer.stateChanged();
+		observer.stateChanged(this);
 	}
 
 	public boolean canMoveDown() {

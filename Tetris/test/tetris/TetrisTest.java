@@ -6,8 +6,10 @@ import org.junit.Test;
 
 public class TetrisTest {
 
-	Tetris t = new Tetris(() -> {
+	View v = new View((x, y, color) -> {
 	});
+
+	Tetris t = new Tetris(v);
 
 	@Test
 	public void testCreateGame() {
